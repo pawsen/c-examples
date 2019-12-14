@@ -1,0 +1,18 @@
+Various c/cpp examples
+
+Files in root dir should compile easily, ie.
+#+BEGIN_SRC sh
+clang -o word-count.out word-count.c
+clang++ -o student-class.out student-class.cpp
+#+END_SRC
+or likewise with ~gcc~
+
+Files in directories will require either a makefile or multiple cli-commands
+
+With emacs, we can use the [[https://github.com/syohex/emacs-quickrun][emacs-quickrun]] package.
+Example; open ~word-count.c~ and run
+#+BEGIN_SRC conf
+M-x quickrun-compile-only
+# and then run the program in the shell. *OR*
+M-x quickrun-arg RET word-count.c u
+#+END_SRC

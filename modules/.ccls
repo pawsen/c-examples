@@ -1,0 +1,6 @@
+clang
+%c -std=c11
+%cpp -std=c++2a
+-isystem/Library/Developer/CommandLineTools/usr/include/c++/v1
+-isystem/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include
+-isystem/Library/Developer/CommandLineTools/usr/include

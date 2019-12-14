@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+# Precompiled Headers
+*.gch
+*.pch
+
+*.o
+*.pcm
+*.out
+.ccls-cache/
+*.out
+obj/
